@@ -420,19 +420,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɢᴛʀᴀɴs', callback_data='gtrans')
             ],[
             InlineKeyboardButton('ɪɴғᴏ', callback_data='info'),
-            InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='paste')
+            InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='paste'),
+            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purge'),
+            InlineKeyboardButton('ʀᴇsᴛʀɪᴄᴛ', callback_data='restric')
             ],[
-            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purge')
-            ],[
-            InlineKeyboardButton('ʀᴇsᴛʀɪᴄᴛ', callback_data='restric'),
             InlineKeyboardButton('sᴇᴀʀᴄʜ', callback_data='search'),
-            InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tgraph')
-            ],[
+            InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tgraph'),
             InlineKeyboardButton('ᴡʜᴏɪs', callback_data='whois'),
             InlineKeyboardButton('ғᴜɴ', callback_data='fun')
             ],[
-            InlineKeyboardButton('ᴀʟɪᴠᴇ', callback_data='alive')
-            ],[
+            InlineKeyboardButton('ᴀʟɪᴠᴇ', callback_data='alive'),
             InlineKeyboardButton('sᴏɴɢ', callback_data='song'),
             InlineKeyboardButton('ᴊsᴏɴ', callback_data='json'),
             InlineKeyboardButton('ᴘɪɴ', callback_data='pin')
